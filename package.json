@@ -1,7 +1,7 @@
 {
-  "name": "nestjs-paginate",
+  "name": "nest-pagination",
   "version": "0.1.0",
-  "author": "Philipp Petzold <ppetzold@protonmail.com>",
+  "author": "Anirban Deb Singha",
   "license": "MIT",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
