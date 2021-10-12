@@ -87,7 +87,7 @@ http://localhost:3000/cats?limit=5&page=2&sortBy=color:DESC&search=i&filter.age=
 ```ts
 import { Controller, Injectable, Get } from '@nestjs/common'
 import { InjectRepository } from '@nestjs/typeorm'
-import { FilterOperator, Paginate, PaginateQuery, paginate, Paginated } from 'nestjs-paginate'
+import { FilterOperator, Paginate, PaginateQuery, paginate, Paginated } from 'pagination-typeorm-nestjs'
 import { Repository, Entity, PrimaryGeneratedColumn, Column } from 'typeorm'
 
 @Entity()
