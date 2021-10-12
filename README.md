@@ -1,4 +1,4 @@
-# Nest.js Paginate
+# Nest.js Pagination for TypeORM Queries
 
 Pagination and filtering helper method for TypeORM repositories or query builders using [Nest.js](https://nestjs.com/) framework.
 
