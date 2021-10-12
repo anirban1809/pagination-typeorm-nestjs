@@ -10,7 +10,7 @@ Pagination and filtering helper method for TypeORM repositories or query builder
 ## Installation
 
 ```
-npm install nestjs-paginate
+npm install pagination-typeorm-nestjs
 ```
 
 ## Usage
