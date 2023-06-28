@@ -1,6 +1,6 @@
 import {
     Repository,
-    FindConditions,
+    FindOptionsWhere,
     SelectQueryBuilder,
     ObjectLiteral,
     FindOperator,
@@ -50,7 +50,7 @@ export interface PaginateConfig<T> {
     maxLimit?: number
     defaultSortBy?: SortBy<T>
     defaultLimit?: number
-    where?: FindConditions<T> | FindConditions<T>[]
+    where?: FindOptionsWhere<T> | FindOptionsWhere<T>[]
     filterableColumns?: { [key in Column<T>]?: FilterOperator[] }
 }
 
