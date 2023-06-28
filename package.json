@@ -8,7 +8,7 @@
     "files": [
         "lib/**/*"
     ],
-    "description": "Pagination and filtering helper method for TypeORM repostiories or query builders using Nest.js framework.",
+    "description": "Pagination and filtering helper method for TypeORM repositories or query builders using Nest.js framework.",
     "keywords": [
         "nestjs",
         "typeorm",
